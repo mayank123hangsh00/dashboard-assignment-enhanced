@@ -1,4 +1,4 @@
-<img width="514" height="424" alt="Screenshot 2025-09-06 151352" src="https://github.com/user-attachments/assets/f806b19f-5a84-4653-af22-0aa35b78fd74" /># 📊 Dashboard Assignment (Enhanced Version)
+# 📊 Dashboard Assignment (Enhanced Version)
 
 Enhanced Dashboard built with:
 - **React 18**
