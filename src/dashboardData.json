@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": 101,
+          "name": "Cloud Accounts",
+          "text": "Widget with cloud accounts data"
+        },
+        {
+          "id": 102,
+          "name": "Cloud Account Risk Assessment",
+          "text": "Widget with risk assessment"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Registry Scan",
+      "widgets": [
+        {
+          "id": 201,
+          "name": "Image Risk Assessment",
+          "text": "Shows vulnerabilities"
+        },
+        {
+          "id": 202,
+          "name": "Image Security Issues",
+          "text": "Displays image issues"
+        }
+      ]
+    }
+  ]
+}
