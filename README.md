@@ -1,4 +1,4 @@
-# 📊 Dashboard Assignment (Enhanced Version)
+# 📊 Dashboard Assignment
 
 Enhanced Dashboard built with:
 - **React 18**
@@ -21,11 +21,74 @@ Enhanced Dashboard built with:
 
 
 ## 🚀 Getting Started
+Follow these steps to run the project locally:
+
+### 1. Prerequisites
+
+Make sure you have **Node.js** and **npm** installed:
+
 ```bash
+node -v
+npm -v
+2. Clone the Project
+
+If your project is on GitHub:
+
+git clone https://github.com/your-username/dashboard-assignment-enhanced.git
+cd dashboard-assignment-enhanced
+
+
+Or navigate to your local project folder:
+
+cd path/to/dashboard-assignment-enhanced
+
+3. Install Dependencies
+
+Install all required packages:
+
 npm install
+
+
+This includes React, Redux Toolkit, Tailwind CSS, Recharts, and other dependencies.
+
+4. Tailwind CSS Setup (If Needed)
+
+If Tailwind is not already configured:
+
+Install Tailwind CSS dependencies:
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+
+Configure tailwind.config.js:
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+
+Include Tailwind in src/index.css:
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+5. Start the Development Server
+
+Run the app locally:
+
 npm start
-```
-App runs at [http://localhost:3000](http://localhost:3000)
+
+
+The app runs at http://localhost:3000
 
 ## 📂 Structure
 - `src/components/DonutChartWidget.js` → donut charts
